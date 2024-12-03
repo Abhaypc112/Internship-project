@@ -9,10 +9,8 @@ function AdminNav() {
         <div className='shadow-md w-[100%] flex h-[5rem] items-center justify-between px-5'>
           <ul className='flex w-[50%] md:w-[40%] lg:w-[30%] justify-between items-center font-semibold '>
             <img src='https://simicart.com/wp-content/uploads/eCommerce-logo.jpg' className='cursor-pointer w-20 h-20 ' alt='Logo'/>
-            <li className='cursor-pointer hidden md:flex'>Home</li>
-            <li className='cursor-pointer relative'>Cart 
-              <span className='relative text-xs px-1 rounded-full bg-yellow-400 '>1</span>
-            </li>
+            <li className='hidden md:flex cursor-pointer'>Products</li>
+            <li className='cursor-pointer'>Users</li>
             <li className='cursor-pointer'>Orders</li>
           </ul>
           <div className='flex gap-5 items-center'>
